@@ -1,0 +1,210 @@
+@import "/styles/resets.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/*  GLOBAL VARIABLES  */
+
+:root {
+    /* --- TYPOGRAPHY --- */
+    --font-family: 'Inter', sans-serif;
+    /* --- COLOR PALETTE --- */
+    --primary-red: #f94f46;
+    --primary-teal: #35a7ab;
+    --secondary-cream: #fff1dc;
+    --neutral-black: #2d0200;
+    --neutral-gray-dark: #80726d;
+    --neutral-gray-med: #f0e9de;
+    --neutral-gray-light: #f7f4ee;
+    --neutral-white: #ffffff;
+}
+
+
+/*  GLOBAL STYLES  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+hr {
+    border-top: 0;
+    border-bottom: 1px solid var(--neutral-gray-med);
+    margin: 1.5rem 0;
+}
+
+a {
+    color: var(--primary-teal);
+    transition: color 0.25s ease;
+}
+
+a:hover {
+    color: var(--primary-red);
+}
+
+
+/*  COMPONENTS  */
+
+.form__tagline {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin: 0 0 0.5rem 0;
+    color: var(--primary-red);
+}
+
+.form__heading__one {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin: 0 0 0.5rem 0;
+    color: var(--neutral-black);
+}
+
+.form__body__text__one {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 0;
+    color: var(--neutral-gray-dark);
+}
+
+.form__body__text__two {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1rem;
+    color: var(--neutral-black);
+}
+
+.form__control {
+    margin-bottom: 1.5rem;
+}
+
+.form__control:last-of-type {
+    margin-bottom: 2rem;
+}
+
+.form__label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--neutral-black);
+}
+
+.form__input {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    outline-color: var(--neutral-black);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    background-color: var(--neutral-gray-light);
+    padding: 0.75rem 1.5rem;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    padding: 0.75rem 1rem;
+    margin: 0 0 1rem 0;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: var(--neutral-white);
+    background-color: var(--primary-teal);
+    transition: background-color 0.25s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-red);
+}
+
+
+/*  HELPER CLASSES */
+
+.text-center {
+    text-align: center;
+}
+
+.text-light {
+    color: var(--neutral-gray-dark);
+}
+
+
+/*  LAYOUTS  */
+
+.main-body {
+    height: 100%;
+    background-color: var(--secondary-cream);
+}
+
+.main-container {
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 2rem 0;
+}
+
+.form-container {
+    max-width: 496px;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0px 4px 48px rgba(155, 144, 122, 0.1);
+    padding: 2.5rem 3.25rem;
+    background-color: var(--neutral-white);
+}
+
+.form__inline {
+    display: flex;
+}
+
+.form__inline .form__control:first-of-type {
+    margin-right: 1.5rem;
+}
+
+.account-select {
+    margin-top: 1.5rem;
+}
+
+.illistration-sign-up,
+.illistration-sign-in {
+    max-width: 470px;
+}
+
+.illistration-sign-in {
+    margin-top: 2rem;
+}
+
+.background-sign-up {
+    background-image: url("../assets/images/background-sign-up.png");
+    background-size: 70.14vw 129vh;
+}
+
+.background-sign-in {
+    background-image: url("../assets/images/background-sign-in.png");
+    background-size: 64.25vw 123.96vh;
+}
+
+.background-sign-up,
+.background-sign-in {
+    background-repeat: no-repeat;
+    background-position: center center;
+}

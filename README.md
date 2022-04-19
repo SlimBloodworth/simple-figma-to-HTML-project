@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://slimbloodworth.github.io/simple-figma-to-HTML-project/)
+- Live Site URL: [](https://slimbloodworth.github.io/simple-figma-to-HTML-project/)
 
 ## My process
 

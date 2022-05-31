@@ -29,6 +29,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [Simple Figma design to Website](https://slimbloodworth.github.io/simple-figma-to-HTML-project/)
+- Figma URL: [Figma file](https://www.figma.com/file/sQSD4kb8hBoIoaIKUBefwb/Login-%26-Sign-Up)
 
 ## My process
 
